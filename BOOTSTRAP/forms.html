@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1 class="text-center display-3">Xpediolive</h1>
+
+        <form>
+            <div class="my-3">
+                <label for="email">Email</label>
+                <input type="email" id="email" class="form-control form-control-lg" placeholder="Enter Email" disabled>
+            </div>
+
+            <div class="my-3">
+                <label for="password">Password</label>
+                <input type="password" id="password" class="form-control" placeholder="Enter Password" readonly>
+            </div>
+
+            <div class="my-3">
+                <label for="address">Address</label>
+                <textarea type="address" id="address" class="form-control" rows="5" name="address"></textarea>
+            </div>
+
+            <div class="my-3">
+                <label for="address">Address</label>
+                <input type="color" id="address" class="form-control form-control-color" row="5" name="address">
+            </div>
+
+            <div class="my-3">
+                <label for="address">Gender</label>
+                <select name="gen" id="gen" class="form-select">
+                    <option value="">Male</option>
+                    <option value="">Female</option>
+                    <option value="">Other</option>
+                </select>
+            </div>
+
+            <div class="my-3">
+                <input type="checkbox" id="cb1" name="op1" value="marathi" class="form-check-input">
+                <label class="form-check-lab me-5">Marathi</label>
+                <input type="checkbox" id="cb1" name="op1" value="english" class="form-check-input">
+                <label class="form-check-lab me-5">English</label>
+                <input type="checkbox" id="cb1" name="op1" value="hindi" class="form-check-input">
+                <label class="form-check-lab me-5">Hindi</label>
+            </div>
+
+            <div class="my-3">
+                <input type="radio" id="cb1" name="op1" value="marathi" class="form-check-input">
+                <label class="form-check-lab me-5">Marathi</label>
+                <input type="radio" id="cb2" name="op1" value="english" class="form-check-input">
+                <label class="form-check-lab me-5">English</label>
+                <input type="radio" id="cb3" name="op1" value="hindi" class="form-check-input">
+                <label class="form-check-lab me-5">Hindi</label>
+            </div>
+
+            <div class="my-3 form-check form-switch">
+                <input type="checkbox" id="test" name="demo" value="yes" class="form-check-input" checked>
+                <label for="test" class="foe-check-lable">Doctor is in</label>
+            </div>
+
+            <div class="input-group mb-3">
+                <span class="input-group-text">@</span>
+                <input type="text" class="form-control" placeholder="Username" name="username">
+            </div>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Email" name="email">
+                <span class="input-group-text">@xpediolive.com</span>
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text">First Name</span>
+                <input type="text" class="form-control" placeholder="First name" name="fname" required>
+                <span class="input-group-text">Last Name</span>
+                <input type="text" class="form-control" placeholder="Last name" name="lname" required>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+     
+    </div>
+    
+    <!-- 
+    checkbox
+    radio button
+    button 
+    dropdown
+    -->
+</body>
+</html>
