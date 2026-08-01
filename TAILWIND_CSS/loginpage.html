@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+
+    <div class="flex w-full h-[100vh] bg-[url(/img/resto.jpg)]">
+        <div class="flex-1"></div>
+        <div class="p-5 flex flex-2 items-center">
+            <div class="flex rounded bg-white shadow shadow-5xl p-5">
+                <div class="flex-1">
+                    <h2 class="text-2xl font-bold text-center py-2 mb-2">Login</h2>
+                    <div class="flex-row mb-3">
+                        <label for="uid" class="w-full py-1">Username</label>
+                        <input type="text" id="uid" class="w-full py-1 border">
+                    </div>
+                    <div class="flex-row mb-5">
+                        <label for="pwd" class="w-full py-1">Password</label>
+                        <input type="text" id="pwd" class="w-full py-1 border">
+                    </div>
+                    <div class="flex justify-end gap-2">
+                        <button class="bg-blue-600 text-white rounded py-2 px-4 hover:bg-blue-700">Login</button>
+                        <button class="bg-red-600 text-white rounded py-2 px-4 hover:bg-red-700">Close</button>
+                    </div>
+                </div>
+                <div class="flex-1 pt-9 ps-2">
+                    <img src="../HTML/IMG/login.jfif" class="w-full">
+                </div>
+            </div>
+        </div>
+        <div class="flex-3"></div>
+    </div>
+
+</body>
+</html>
