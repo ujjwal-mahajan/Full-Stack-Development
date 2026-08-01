@@ -1,0 +1,41 @@
+.container {
+    background-color: dodgerblue;
+    padding: 10px;
+    height: 450px;
+    /* display: inline-grid; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* grid-template-columns: 90px 90px 90px; */
+    /* grid-template-columns: 90px 210px auto; */
+    /* grid-template-columns: 1fr 2fr 1fr; */
+    /* grid-template-columns: repeat(3, 1fr); */
+    /* grid-template-columns: minmax(9px, 1fr) 150px 150px; */
+    /* grid-template-rows: 90px 210px; */
+    /* row-gap: 50px; */
+    /* column-gap: 50px; */
+    /* gap: 10px 90px; */
+    /* justify-content: center; */
+    /* justify-content: start; */
+    /* justify-content: end; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* align-content: center; */
+    /* align-content: space-evenly; */
+    /* align-content: space-around; */
+    /* align-content: space-between; */
+    /* align-content: end; */
+    /* align-content: start; */
+    /* align-content: center; */
+    place-content: center;
+    place-content: end space-between;
+}
+
+.container div {
+    background-color: aliceblue;
+    border: 1px solid black;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}

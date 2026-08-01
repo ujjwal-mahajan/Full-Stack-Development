@@ -1,0 +1,20 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+}
+
+/* Child Combinator
+div > p {
+    background-color: yellow;
+} */
+
+/* Next Sibbling
+div + p {
+    background-color: yellow;
+} */
+
+/* Till Sibbling */
+
+div ~ p {
+    background-color: yellow;
+}

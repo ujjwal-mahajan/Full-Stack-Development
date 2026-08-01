@@ -1,0 +1,17 @@
+body{
+  background-image: url(IMG/Animated\ Image.webp);
+  background-repeat: no-repeat;
+  /* background-repeat: repeat-y; */
+  /* background-position: right top;
+  background-attachment: fixed; */ 
+  background: url(Img) no-repeat right top fixed;
+}
+div {
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.3);
+  /* opacity: 0.3; */
+  font-size: 60px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
