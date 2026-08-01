@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+
+/* .clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+} */
+
+/* .container{
+    border: 1px solid;
+} */
+
+.box1{
+    width: 10%;
+    padding: 15px;
+    float: left;
+    background-color: rgb(0, 216, 245);
+}
+
+.box2{
+    width: 30%;
+    padding: 15px;
+    float: left;
+    background-color: rgb(255, 67, 67);
+}
+
+.box3{
+    width: 4.33%;
+    padding: 15px;
+    float: left;
+    background-color: yellow;
+}
+
+.box4{
+    width: 4.33%;
+    padding: 15px;
+    float: left;
+    background-color: rgb(0, 255, 0);
+}
+
+.box5{
+    width: 47%;
+    padding: 15px;
+    float: left;
+    background-color: rgb(179, 98, 255);
+}
+
+.box6{
+    width: 4.33%;
+    padding: 15px;
+    float: left;
+    background-color: orange;
+}
