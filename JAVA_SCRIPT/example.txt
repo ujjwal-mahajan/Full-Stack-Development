@@ -1,0 +1,2 @@
+If time 5:00 to 11:59 then Good morning, if time 12:00 to 16:59 then Good afternoon, if time 17:00 to 24:00 then Good evening.
+If age is under 12 then kid, under 16 teen, under 21 young, under 45 adult, after that old

@@ -1,0 +1,238 @@
+                   Scope          Redeclare          Reassign          Hoisted          Bind this
+var                No             Yes                Yes               Yes              Yes
+let                Yes            No                 Yes               No               No
+const              Yes            No                 No                No               No
+
+
+JS Datatypes:
+
+String             Which includes Characters
+Number             Only Numbers
+Bigit              Large Numbers
+Boolean            True or False
+Object             Collection od key-value pairs
+Undefined          Variable without assigned value
+Null               Value Absense
+Symbol             Unique Identifier
+
+
+Assign                      =
+Addition                    +
+Subtraction                 -
+Multiplication              *
+Division                    /
+Modolus (Remainder)         %
+Increment                   ++
+Decrement                   --
+
+If valus is "Number" then   +   Addition
+If valus is "String" then   +   Concatination
+
+Aad and show full           +=  For 'String' Concatination        var = var + value
+Aad and show full           +=  For 'Number' Addition             var = var + value
+Aad and show full           -=  For 'Number' Subtraction          var = var - value
+Aad and show full           *=  For 'Number' Multiplication       var = var * value
+Aad and show full           /=  For 'Number' Division             var = var / value 
+Aad and show full           %=  For 'Modolus' Division            var = var % value 
+Aad and show full           **=  For 'Exponention' Division       var = var ** value 
+
+
+Comparision Operator:
+
+==           Equal to                                             x == 3
+===          Equal to and equal datatype                          x == 3
+!=           Not equal to                                         x != 3
+!==          Not equal or equal datatype                          x !== 3
+>            Greater than                                         x > 3
+<            Less than                                            x < 3
+>=           Greater than or equal to                             x >= 3
+<=           Less than or exual to                                x <= 3
+
+
+Logical operators:
+
+&&         Logical And   
+||         Logical Or 
+!          Logical Not 
+
+
+Javascript String Methods:
+
+Length                      To measure the length of the String
+charCodeAt(6)               To get UTF-16 code of letter position at 6th in intiger format 
+at(6)                       To get the letter on 6th position
+concat()                    To concat 2 or more variable
+slice(a, n)                 To get letter from a to n-1 (Starts from 0)
+substring(a, n)             To get letter from a to n-1 (Starts from 0)
+substr(a, n)                To get letter from a to n-1 (Starts from 0)
+toUpperCase()               To get convert in Upper text
+toLowerCase()               To get convert in Lower text
+trim()                      Remove the empty space
+trimStart()                 Remove the empty space from start
+trimEnd()                   Remove the empty space from end
+padStart()                  To get output start with given thing with given numbers
+padEnd()                    To get output end with given thing with given numbers
+repeat()                    To repeat the things
+replace()                   To replace one word to other
+replaceAll()                To replace the same word occured multiple times to other
+split('t')                  To split using target (t)  
+indexOf('t')                To find the index no of target
+lastIndexOf('t')            To find the index no of target of last occurrence
+search()                    To search index no of target
+match()                     To match and show all the target appearance
+includes()                  Search target and show its presence true or false
+startsWith()                To check that the target is at start position and show true or false
+ebdsWith()                  To check that the target is at end position and show true or false
+
+
+Javascript Number Methods:
+
+toString()                  To convert number into string
+toFixed()                   To fixed how many decimal no to show
+toPrecision()               To fixed how many before and after decimal no to show
+parseInt()                  To convert string into whole number
+parseFloat()                To convert string into number
+Number.isInteger()          To find the num is intiger or not  
+Number.isFinite()           To check number is not infinite 
+Number.isNan()              To check weather the object is not a number
+Number.parseFloat()         To parse string and return a number
+Number.parseInt()           To parse string and return a Whole number
+
+
+Javascript Bitwise operators:
+
+&            and
+|            or
+^            xor
+~            not
+<<           zero fill left shift
+>>           Signed right shift
+>>>          zero fill right shift
+
+
+Loops:
+
+var loop: 
+
+for (expr1, expr2, expr3) {
+    code block to be executed
+}
+
+expr1 is exicuted one time before the execution of the code block.
+expr2 define the condition for executing the code block.
+expr3 is exicuted every time the code block has been exicuted.
+
+Variables declared outside of the bolc (curly bracket) can be used inside of the box but the vice versa is not 
+possible
+
+
+Functions:
+
+What is functions?
+    1. Reusable code blocks design for perticular tasks
+    2. Excuted then called
+    3. Fundamental in programming languages
+
+Calling Functions:
+    Functions called with parentheses
+
+Function Parameters:
+    Allows to send or set value
+
+Function return values:
+    To get valid value or output
+
+Function arguments:
+    1. Function can have parameters 
+
+
+Objects:
+
+Objects are variables that can store both value and function.
+Objects are collections of properties which can changed, added & deleted.
+Objects can display full Objects or specific value by propertie name.
+Objects can loop by property name.
+Objects can used local or global variables by using "this" keyword.
+
+"Use strict"
+
+
+Arrays:
+
+['Bhavesh', 'Kshitij', 'Kajol', 'Ujjwal', 'Vikas', 'Om'];
+
+{
+    name1: 'Bhavesh',
+    name2: 'Kshitij',
+    name3: 'Kajol',
+    name4: 'Ujjwal',
+    name5: 'Vikas',
+    name6: 'Om'
+}
+
+Methods
+
+1.  array.length                    To get count of array items.
+2.  array[0]                        To access the value of first element.
+3.  array[array.length - 1]         To access the value of last element.
+4.  array.push("Value")             To add element in array.
+5.  array[6]                        To replace element of the given index position.
+6.  Array.isArray(array)            To check it's array or not. 
+7.  array instanceof Array          To check it's array or not. 
+8.  array.at(number)                To get value of given number element.
+9.  array.pop()                     To remove last element.
+10. array.shift()                   To remove first element.
+11. array.unshift("Value")          To add element in array at first place.
+12. array[index no] = "Value"       To replace new valur to specific element.
+13. deleat array[index no]          To deleat value of specific index element.
+14. array1.concat(arr2, arr3)       To merge 2 or more arrays in one.
+15. array.concat("Value")           To add value in array.
+16. array.flat()                    To create new array with sub-array elements concat to specific depth.
+17. array.splice(2, 1, "val")       To insert value at specific index with specific number of elements delete.
+
+
+Array Search Methods:
+
+1. array.indexOf("value")              To search index number of value.
+2. array.LastIndexOf("Value")          To search index number of value at last occurrence.
+3. array.includes
+4.
+5. array.findIndex(function)           To Find the index number of the first element of fulfilled condition.
+6. array.findLastIndex()               To Find the last index number of the first element of fulfilled condition.
+7. array.find(function)                To Find the last element of fulfilled condition.
+
+
+Array Sort Methods:
+
+1. array.sort()                                       To sort value alphabetically.
+2. array.reverse()                                    To reverse the sorted value.
+3. array.toSorted()                                   To sort value alphabetically.
+4. array.toReversed()                                 To reverse the sorted value.
+5. num.sort(function(a, b) {return a - b})            To sort values in numerical order.
+6. num.sort(function(a, b) {return b - a})            To sort values in reverse numerical order.
+7. num.sort(function() {return 0.5 - Math.random})    To sort values in random numerical order.
+
+
+Math Liberary:
+
+1. Math.min.apply(null, num)               To find smallest number from array.
+1. Math.max.apply(null, num)               To find biggest number from array.
+
+
+Array Interaction:
+
+1. array.forEach(function)                 Specific array loop.
+
+
+JavaScript Error Types:
+
+
+
+Debugging:
+
+Read -> reproduce -> Reduce -> fix
+
+Read         Read the Error
+Reproduce    Reproduce the Error
+Reduce       Reduce to small example
+Fix          Teen fix it
