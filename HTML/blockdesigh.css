@@ -1,0 +1,29 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.blue {
+    height: 15vh;
+    background-color: blue;
+}
+
+.orange {
+width: 30%;
+height: 85vh;
+background-color: orange;
+float: left;
+}
+
+.green {
+width: 70%;
+height: 85vh;
+background-color: green;
+float: left;
+}

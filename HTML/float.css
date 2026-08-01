@@ -1,0 +1,37 @@
+/* *{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+img {
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px;
+} */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+.d1 {
+    border: 3px solid red;
+    float: left;
+}
+
+.d2 {
+    border: 3px solid green;
+}
+
+.d3 {
+    border: 3px solid red;
+    float: left;
+}
+
+.d4 {
+    border: 3px solid green;
+    clear: left;
+}
+
+
+

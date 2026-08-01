@@ -1,0 +1,51 @@
+/* a {
+    text-decoration: none;
+}
+
+a:link {
+    color: hotpink;
+}
+a:visited {
+    color: seagreen; */
+/* } */
+
+/* a:hover {
+    color: dodgerblue;
+}
+
+a:active {
+    color: tomato;
+} */
+
+/* a:hover, a:active {
+    color: dodgerblue;
+} */
+
+a:link, a:visited {
+    background-color: dodgerblue;
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 7px;
+}
+
+a:hover, a:active {
+    background-color: tomato;
+    /* cursor: auto; */
+    /* cursor: crosshair; */
+    /* cursor: default; */
+    /* cursor: help; */
+    /* cursor: e-resize; */
+    /* cursor: n-resize; */
+    /* cursor: w-resize; */
+    /* cursor: s-resize; */
+    /* cursor: ne-resize; */
+    /* cursor: nw-resize; */
+    /* cursor: se-resize; */
+    /* cursor: sw-resize; */
+    /* cursor: move; */
+    /* cursor: pointer; */
+    /* cursor: text; */
+    /* cursor: wait; */
+    cursor: progress;
+}

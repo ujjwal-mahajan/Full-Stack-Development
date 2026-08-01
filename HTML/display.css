@@ -1,0 +1,29 @@
+/* li {
+    list-style: none;
+    display: inline;
+    padding: 9px 18px;
+    background-color: orange;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+
+h1 {
+    /* display: none; */
+    /* visibility: hidden; 
+} */
+
+div {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    border: 2px solid green;
+    padding: 15px;
+}
+
+.p1 {
+    width: 500px;
+}
+
+.p2 {
+    max-width: 500px;
+}
